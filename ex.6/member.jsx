@@ -1,5 +1,5 @@
-/*import React from 'react'
+import React from 'react'
 
 export default props => (
     <div>{props.name}<strong>{props.lastName}</strong></div>
-)*/
+)

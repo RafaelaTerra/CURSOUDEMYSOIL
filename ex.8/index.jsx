@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Field from './field.js'
-//import ClassComponent from './classComponent.jsx'
+import ClassComponent from './classComponent.jsx'
 //import Family from './family.jsx'
 //import Member from './member.jsx'
 
@@ -11,8 +10,7 @@ import Field from './field.js'
 //(utilizei component.jsx pq só component não funcionou )
 
 ReactDOM.render(
-    <Field initialValue='Teste' />
-   //<ClassComponent label='Contador' initialValue={10} /> 
+   <ClassComponent label='Contador' initialValue={10} /> 
    // antes do {10} tinha uma string 'Componente Classe'
     /*<Family  lastName=' Silva'>
         <Member name='Gulherme' />
